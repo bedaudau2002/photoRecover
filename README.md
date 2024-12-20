@@ -5,7 +5,6 @@
 
 ```python
 def read_vol_file(filename)
- 
 ```
 
 This function reads a binary volume file:
@@ -15,8 +14,9 @@ Opens the file in binary read mode ('rb')
 Returns the entire file content as bytes
 Includes error handling for missing files and other exceptions
 Returns None if any errors occur
-
+```python
 recover_png(data)
+```
 This function recovers PNG files from binary data:
 
 Searches for PNG signature (\x89PNG\r\n\x1a\n)
@@ -24,8 +24,9 @@ Locates each PNG file's end by finding the 'IEND' chunk
 Extracts complete PNG files including headers and footers
 Saves each recovered PNG with incremental naming (recovered_0.png, etc.)
 Returns the total number of PNG files recovered
-
+```python
 recover_jpg(data)
+```
 This function recovers JPG files from binary data:
 
 Looks for JPG signature (\xff\xd8\xff)
@@ -36,7 +37,9 @@ Returns the total number of JPG files recovered
 
 Main Execution Block
 The main execution block:
-
+```python
+if __name__ == "__main__":
+```
 Reads the volume file (image00.vol)
 Recovers both PNG and JPG files
 Creates an img directory
