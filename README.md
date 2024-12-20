@@ -15,7 +15,7 @@ Returns the entire file content as bytes
 Includes error handling for missing files and other exceptions
 Returns None if any errors occur
 ```python
-recover_png(data)
+def recover_png(data)
 ```
 This function recovers PNG files from binary data:
 
@@ -25,7 +25,7 @@ Extracts complete PNG files including headers and footers
 Saves each recovered PNG with incremental naming (recovered_0.png, etc.)
 Returns the total number of PNG files recovered
 ```python
-recover_jpg(data)
+def recover_jpg(data)
 ```
 This function recovers JPG files from binary data:
 
