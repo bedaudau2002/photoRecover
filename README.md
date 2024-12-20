@@ -3,7 +3,10 @@
 
 # Description
 
-read_vol_file(filename)
+```python
+def read_vol_file(filename)
+ 
+```
 
 This function reads a binary volume file:
 
