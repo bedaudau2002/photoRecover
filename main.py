@@ -97,3 +97,4 @@ if __name__ == "__main__":
             if os.path.exists(old_path):
                 new_path = os.path.join('img', f'recovered_{i}.{ext}')
                 os.rename(old_path, new_path)
+
