@@ -1,5 +1,5 @@
-# photoRecover
-.png and .jpg file recover for image00.vol
+# Photo Recover
+.png and .jpg file recover for image00.vol.
 
 ## Description
 
@@ -47,4 +47,4 @@ if __name__ == "__main__":
 - Moves all recovered files to the img directory
 - Prints status messages about recovery process
 
-This code is designed for digital forensics or file recovery scenarios where image files need to be extracted from a volume file.
+This code is designed for file recovery scenarios where image files need to be extracted from a volume file.
